@@ -11,12 +11,12 @@ This repository contains the simulation code and proof-of-concept pipeline for a
 * **Mean Absolute Error (Single Raw Sensor):** 8.37
 * **Mean Absolute Error (Fused Array):** 8.05
 * **Error Reduction Achieved:** 3.7%
-* Training Gradient Boosting Model for Edge Deployment...
-**✅ Final AI Model R² Score: 0.970**
-**✅ Final AI Model MAE: 1.92**
-Simulating 8-bit Post-Training Quantization...
-Original Float Outputs (Sample): [43.8  33.98 30.8  67.47 56.   64.47 66.02 38.77 68.32 32.18]
-Quantized INT8 Outputs (Sample): [ 81  63  57 125 104 120 123  72 127  60]
+* **Training Gradient Boosting Model for Edge Deployment**
+* **✅ Final AI Model R² Score: 0.970**
+* **✅ Final AI Model MAE: 1.92**
+* **Simulating 8-bit Post-Training Quantization**
+* Original Float Outputs (Sample): [43.8  33.98 30.8  67.47 56.   64.47 66.02 38.77 68.32 32.18]
+* Quantized INT8 Outputs (Sample): [ 81  63  57 125 104 120 123  72 127  60]
 * **Accuracy Improvement:** 78.0% (Baseline) ➡️ 92.6% (AI-Enhanced)
 * **Error Margin Reduction:** ±12% ➡️ ±2.5%
 * **Cost Reduction:** ₹1,30,000 (Industrial Station) ➡️ ₹2,500 (Edge Node)

@@ -26,11 +26,11 @@ This repository contains the simulation code and proof-of-concept pipeline for a
 ### 1. Low-Cost Sensor Limitations (Noise & Drift)
 ![Sensor Noise and Drift Simulation](assets/simulation_of _low_cost_sensor.png)
 ### 2. Kalman Filter Noise Suppression
-![Kalman Filter Output](assets/kalman_filter_plot.png)
+![Kalman Filter Output](assets/recursive_kalman_plot.png)
 ### 3. Adaptive Sensor Fusion Output
-![Adaptive Sensor Fusion Plot](adaptive_fusion_plot.png)
+![Adaptive Sensor Fusion Plot](assets/adaptive_fusion_plot.png)
 ### 4. TinyML Gradient Boosting Accuracy
-![TinyML Accuracy Plot](tinyml_accuracy_plot.png)
+![TinyML Accuracy Plot](assets/tinyml_accuracy_plot.png)
 
 ## 📂 Repository Structure
 * `src/01_sensor_simulation.py`: Generates synthetic MQ/DHT sensor data with stochastic noise and temporal drift.

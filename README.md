@@ -24,7 +24,7 @@ This repository contains the simulation code and proof-of-concept pipeline for a
 
 ## 📈 Visualizing the Framework Performance
 ### 1. Low-Cost Sensor Limitations (Noise & Drift)
-![Sensor Noise and Drift Simulation](assets/simulation_of _low_cost_sensor.png)
+![Sensor Noise and Drift Simulation](assets/simulation.png)
 ### 2. Kalman Filter Noise Suppression
 ![Kalman Filter Output](assets/recursive_kalman_plot.png)
 ### 3. Adaptive Sensor Fusion Output

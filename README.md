@@ -8,6 +8,9 @@ This repository contains the simulation code and proof-of-concept pipeline for a
 * **Edge Deployment:** Optimizing a Gradient Boosting Regressor (8-bit quantization) for the 520KB SRAM limit of an ESP32 microcontroller.
 
 ## 📊 Performance Metrics Achieved
+* **Mean Absolute Error (Single Raw Sensor):** 8.37
+* **Mean Absolute Error (Fused Array):** 8.05
+* **Error Reduction Achieved:** 3.7%
 * **Accuracy Improvement:** 78.0% (Baseline) ➡️ 92.6% (AI-Enhanced)
 * **Error Margin Reduction:** ±12% ➡️ ±2.5%
 * **Cost Reduction:** ₹1,30,000 (Industrial Station) ➡️ ₹2,500 (Edge Node)

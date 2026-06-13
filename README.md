@@ -23,6 +23,17 @@ This repository contains the simulation code and proof-of-concept pipeline for a
 * **Model R² Score:** 0.970
 ## 📈 Visualizing the Framework Performance
 ### 1. Low-Cost Sensor Limitations (Noise & Drift)
+![Sensor Noise and Drift Simulation](assets/simulation_of_low_cost_sensor.png)
+
+### 2. Kalman Filter Noise Suppression
+![Kalman Filter Output](kalman_filter_plot.png)
+
+### 3. Adaptive Sensor Fusion Output
+![Adaptive Sensor Fusion Plot](adaptive_fusion_plot.png)
+
+### 4. TinyML Gradient Boosting Accuracy
+![TinyML Accuracy Plot](tinyml_accuracy_plot.png)
+### 1. Low-Cost Sensor Limitations (Noise & Drift)
 ![Sensor Noise and Drift Simulation](assets/simulation_plot.png)
 ### 2. Adaptive Sensor Fusion Output
 ![Adaptive Sensor Fusion Plot](assets/adaptive_fusion_plot.png)

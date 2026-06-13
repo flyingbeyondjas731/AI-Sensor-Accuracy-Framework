@@ -21,24 +21,17 @@ This repository contains the simulation code and proof-of-concept pipeline for a
 * **Error Margin Reduction:** ±12% ➡️ ±2.5%
 * **Cost Reduction:** ₹1,30,000 (Industrial Station) ➡️ ₹2,500 (Edge Node)
 * **Model R² Score:** 0.970
+
 ## 📈 Visualizing the Framework Performance
 ### 1. Low-Cost Sensor Limitations (Noise & Drift)
-![Sensor Noise and Drift Simulation](assets/simulation_of_low_cost_sensor.png)
-
+![Sensor Noise and Drift Simulation](assets/simulation_of _low_cost_sensor.png)
 ### 2. Kalman Filter Noise Suppression
-![Kalman Filter Output](kalman_filter_plot.png)
-
+![Kalman Filter Output](assets/kalman_filter_plot.png)
 ### 3. Adaptive Sensor Fusion Output
 ![Adaptive Sensor Fusion Plot](adaptive_fusion_plot.png)
-
 ### 4. TinyML Gradient Boosting Accuracy
 ![TinyML Accuracy Plot](tinyml_accuracy_plot.png)
-### 1. Low-Cost Sensor Limitations (Noise & Drift)
-![Sensor Noise and Drift Simulation](assets/simulation_plot.png)
-### 2. Adaptive Sensor Fusion Output
-![Adaptive Sensor Fusion Plot](assets/adaptive_fusion_plot.png)
-### 3. TinyML Gradient Boosting Accuracy
-![TinyML Accuracy Plot](assets/tinyml_accuracy_plot.png)
+
 ## 📂 Repository Structure
 * `src/01_sensor_simulation.py`: Generates synthetic MQ/DHT sensor data with stochastic noise and temporal drift.
 * `src/02_kalman_filter.py`: Implements the recursive state tracking to suppress noise.
